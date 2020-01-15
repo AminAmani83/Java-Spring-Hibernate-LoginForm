@@ -1,0 +1,5 @@
+CREATE TABLE `library`.`user` (
+  `Id` INT NOT NULL AUTO_INCREMENT,
+  `Email` VARCHAR(45) NOT NULL,
+  `Password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`Id`));
